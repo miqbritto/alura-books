@@ -1,0 +1,102 @@
+:root{
+    --cor-fundo: #EBECEE;
+    --cor-menus: #FFFFFF;
+    --cor-texto1: #EB9B00;
+    --cor-texto2: #002F52;
+    --cor-texto3: #C4C4C4; 
+    --cor-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+    --fonte-principal: "Poppins", sans-serif;
+
+}
+
+.carrossel__titulo{
+    background-color: var(--cor-menus);
+    
+}
+
+.carrossel__titulo{
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto1);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+}
+
+.swiper-slide img{
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.swiper-button-next, .swiper-button-prev{
+    display: none;
+} 
+
+.swiper-pagination{
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card{
+    background-color: var(--cor-menus);
+    margin: 1rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.card__descricao{
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.descricao{
+    font-family: var(--fonte-principal);
+    padding: 0.7em;
+}
+
+.descricao__estrelinhas{
+    margin-bottom: 1em;
+}
+
+.descricao__titulo{
+    color: var(--cor-texto1);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.descricao__titulo-livro{
+    color: var(--cor-texto2);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.7em 0;
+}
+
+.descricao__texto{
+    color: black;
+    font-size: 14px;
+}
+
+.card__botoes{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.botoes__saiba-mais{
+    background-color: var(--cor-texto1);
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    color: var(--cor-menus);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 2.3rem;
+}
+
+.botoes{
+    display: flex;
+    gap: 2em;
+    
+}
