@@ -1,0 +1,73 @@
+:root{
+    --cor-fundo: #EBECEE;
+    --cor-menus: #FFFFFF;
+    --cor-texto1: #EB9B00;
+    --cor-texto2: #002F52;
+    --cor-texto3: #C4C4C4; 
+    --cor-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+    --fonte-principal: "Poppins", sans-serif;
+
+}
+
+.topicos{
+    background: var(--cor-azul-degrade);
+    font-family: var(--fonte-principal);
+    color: var(--cor-menus);
+    text-align: center;
+    
+}
+
+.topicos__titulo{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 1rem;
+}
+
+.topicos__links{
+    text-decoration: none;
+    color: var(--cor-menus);
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+.topicos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos__item{
+    background-color: var(--cor-texto1);
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 1024px){
+    .topicos__titulo{
+        font-size: 24px;
+        padding: 2rem;
+    }
+
+    .topicos__links{
+        font-size: 24px;
+        padding: 1.5rem 1rem;
+    }
+
+    .topicos__lista{
+        padding: 0 6rem 2rem 6rem;
+        
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .topicos{
+        padding: 2em 30vw;
+    }
+
+    .topicos__titulo{
+        font-size: 32px;
+    }
+    
+}

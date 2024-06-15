@@ -49,5 +49,51 @@
     background: url(../assets/Lupa.svg) no-repeat;
     background-position: 1em;
     text-align: center;
+    
 
+}
+
+@media screen and (min-width: 1024px){
+
+    .banner{
+        padding: 5rem;
+    }
+
+    .banner__titulo{
+        font-size: 36px;
+    }
+
+    .banner__texto{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .banner__pesquisa{
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 5em;
+    }
+    
+}
+
+@media screen and (min-width: 1728px){
+    .banner__titulo{
+        font-size: 42px;
+    }
+
+    .banner__texto{
+        font-size: 24px;
+    }
+
+    .banner__pesquisa{
+        width: 25%;
+        padding: 1rem;
+    }
+
+    .banner__pesquisa::placeholder{
+        font-size: 18px;
+    }
 }

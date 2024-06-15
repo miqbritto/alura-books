@@ -1,0 +1,92 @@
+:root{
+    --cor-fundo: #EBECEE;
+    --cor-menus: #FFFFFF;
+    --cor-texto1: #EB9B00;
+    --cor-texto2: #002F52;
+    --cor-texto3: #C4C4C4; 
+    --cor-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+    --fonte-principal: "Poppins", sans-serif;
+
+}
+
+.contato{
+    background-color: var(--cor-menus);
+    color: var(--cor-texto2);
+    font-family: var(--fonte-principal);
+    
+}
+
+.contato__titulo{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1rem;
+    background: var(--cor-azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__texto{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 1rem;
+    background: var(--cor-azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__pesquisa{
+    border: 1px solid var(--cor-texto2) ;
+    border-radius: 24px;
+    padding: 0.7rem 0;
+    width: 90%;
+    margin: 1em;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+.contato__pesquisa::placeholder{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    color: var(--cor-texto2);
+    background: url(../assets/Email.svg) no-repeat;
+    background-position: 1rem;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .contato{
+        display: flex;
+        padding: 2rem 6rem;
+        justify-content: space-between;
+    }
+
+    .contato__titulo{
+        font-size: 24px;
+    }
+
+    .contato__pesquisa{
+        height: 6%;
+        width: 50%;
+        margin: 1rem;
+        
+    }
+
+
+
+}
+
+@media screen and (min-width: 1728px){
+    .contato{
+        padding: 4em 30vw;
+    }
+
+    .contato__titulo{
+        font-size: 24px;
+    }
+}
